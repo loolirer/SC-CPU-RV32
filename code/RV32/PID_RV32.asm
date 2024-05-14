@@ -49,7 +49,7 @@ PID:
    mul_Ki_:
 
    # DIFERENCIAL
-   
+
    add t2, zero, s4 # Carregando Kd num temporário
    sub t6, t1, t6   # Erro Diferencial = Erro - Último Erro
 
@@ -65,6 +65,7 @@ PID:
    add t6, zero, t1 # Atualiza o último erro
 
    # SAÍDA
+   
    sw  t0, 0x04(zero) # Escreve saída da iteração na saída paralela 
 
 beq  zero, zero, PID # Volta para o início do loop PID
