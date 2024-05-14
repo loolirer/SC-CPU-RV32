@@ -49,6 +49,7 @@ PID:
    mul_Ki_:
 
    # DIFERENCIAL
+   
    add t2, zero, s4 # Carregando Kd num temporário
    sub t6, t1, t6   # Erro Diferencial = Erro - Último Erro
 
