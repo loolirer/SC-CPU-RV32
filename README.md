@@ -19,7 +19,7 @@ e comporta as seguintes instruções:
 - Tipo B - `BEQ`;
 - Tipo U - `LUI`.
 
-Como aplicação prática, o projeto dispõe de um código que simula um **Controlador PID Digital** Implementado em RISC-V.
+Como aplicação prática, o projeto dispõe de um código que simula um **Controlador PID Digital** implementado em RISC-V.
 
 
 A organização do projeto se encontra da seguinte maneira: 
